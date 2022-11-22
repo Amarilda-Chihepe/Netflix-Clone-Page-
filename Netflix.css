@@ -1,0 +1,247 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-image: url("imgs/img8.jpg");
+    height: 670px;
+    border-bottom: 10px rgb(61, 61, 61) solid;
+}
+
+.header{
+    background-color: rgba(0, 0, 0, 0.336);
+    backdrop-filter: blur(2px);
+    
+    height: 670px;
+}
+
+.header-1{
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+}
+.logo img{
+    height: 100px;
+    width: 120px;
+    padding-left: 60px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.sign-button{
+    display: flex;
+    align-items: center;
+    padding-right: 60px;
+}
+.sign-button button{
+    background-color: rgb(218, 3, 3);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.text{
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.text h1{
+    font-size: 47px;
+}
+.text .h1{
+    margin-top: -25px;
+    
+}
+
+p, h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.p1{
+    margin-top: -10px;
+    font-size: 25px;
+}
+
+.p2{
+    font-size: 20px;  
+}
+
+#email{
+    width: 475px;
+    height: 53px;
+    margin-right: -4px;
+    padding-left: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    border: 1px rgb(228, 227, 227) solid;
+    background-color: rgba(128, 128, 128, 0.61);
+}
+form{
+    margin-top: -10px;
+}
+
+.form{
+    display: flex;
+}
+#button{
+    width: 175px;
+    height: 55px; 
+    border: none;
+    background-color: rgb(209, 5, 5);
+    font-size: 20px;
+    color: white;
+}
+.seccao-1{
+    height: 230px;
+}
+
+.seccao-2{
+    height: 300px;
+}
+
+.seccao-1, .seccao-2{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 10px rgb(61, 61, 61) solid;
+}
+.text-Tv{
+    max-width: 500px;
+    padding-left: 130px;
+}
+
+.text-download{
+    padding-right: 130px; 
+    max-width: 600px;
+}
+
+.text-Tv h1, .text-download h1{
+    font-size: 45px;
+}
+
+.text-Tv p, .text-download p{
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: -10px;
+}
+
+.img-tv{
+    display: flex;
+    align-items: center;
+    padding-right: 130px;
+}
+
+.img-tv img{
+    height: 200px;
+    width: 350px;
+   margin-left: 130px;
+}
+
+#stanger-things{
+    height: 150px;
+    width: 100px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.img-download{
+    display: flex;
+   align-items: center;
+    padding-left: 130px; 
+    flex-direction: column;
+}
+
+.download-div{
+    height: 50px;
+    width: 230px;
+    border: 1px rgb(138, 137, 137) solid;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: -50px;
+    display: flex;
+}
+
+#img-down-div{
+    height: 40px;
+    width: 35px;
+    padding-left: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.download-div p{
+    font-size: 13px;
+    line-height: 7px;
+    margin-left: 15px;
+}
+
+#kids{
+    width: 150px;
+    height: 200px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.faq{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.faq-question{
+    display: flex;
+    width: 800px;
+    background-color:  rgba(68, 68, 68, 0.925);
+    justify-content: space-between;
+    height: 65px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.faq-question a{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.seccao-6{
+    height: 350px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 200px;
+}
+
+.footer-1{
+    display: flex;
+}
+
+ul li{
+    list-style: none;
+    line-height: 35px;
+}
+
+.seccao-6 a{
+    text-decoration: none;
+    color: rgb(87, 85, 85);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.seccao-6 a:hover{
+    text-decoration: underline;
+}
