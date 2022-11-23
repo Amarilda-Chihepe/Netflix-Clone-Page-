@@ -4,7 +4,7 @@ body{
 }
 
 header{
-    background-image: url("imgs/img8.jpg");
+    background-image: url("imgs/banner.jpg");
     height: 670px;
     border-bottom: 10px rgb(61, 61, 61) solid;
 }
@@ -148,8 +148,8 @@ form{
 }
 
 #stanger-things{
-    height: 150px;
-    width: 100px;
+    height: 180px;
+    width: 210px;
     border-radius: 10px;
     margin-top: 50px;
 }
@@ -186,8 +186,8 @@ form{
 }
 
 #kids{
-    width: 150px;
-    height: 200px;
+    width: 270px;
+    height: 230px;
     margin-top: 50px;
     border-radius: 20px;
 }
